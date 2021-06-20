@@ -18,4 +18,23 @@ for d in data:
 	if len(d) < 100:
 		new.append(d)
 print('一共有',len(new),'筆留言小於100')
-print(new[0])		
+		
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+
+#進階寫法
+good = [d for d in data if 'good' in d]
+print(len(good))
+
+
+bad = []
+for d in data:
+	bad.append('bad' in d)
+print(bad)	
+
+#進階寫法
+bad = ['bad' in d for d in data]
+print(len(bad))
