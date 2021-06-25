@@ -60,22 +60,4 @@ while True:
 		print(word,'出現次數為', wc[word])
 	else:
 		print('查無此字串')
-print('感謝使用本查詢功能')	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print('感謝使用本查詢功能')
